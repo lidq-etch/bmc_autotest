@@ -492,7 +492,7 @@ Web 脚本通过 Redfish Session（X-Auth-Token）模拟 Web 浏览器行为，�
 
 ## **SDK已知局限（get_raw临时占位）**
 
-> 以下场景因 `redfish_python_sdk` 当前版本（v1.1.1）的数据模型尚未封装对应字段，
+> 以下场景因 `redfish_python_sdk` 当前版本（v1.2.0）的数据模型尚未封装对应字段，
 > 暂时使用 `client.get_raw()` 访问原始 JSON，并在运行时输出 `[SDK-GAP]` WARNING 日志。
 > **待 SDK 补充相应字段后应优先替换为类型化接口。**
 >
